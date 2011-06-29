@@ -1,0 +1,7 @@
+c	clear
+changed_dt	ls -l | grep "!*" | wc -l
+cp	(cp -i)
+ff	find . -type f -ls
+links	find . -type l
+rm	(rm -i)
+twok	find . -size +2k -type f -ls
