@@ -6,7 +6,16 @@
 # file
 #
 
+if ( $# != 1 ) then
+    echo "Usage: add_x.csh <filename>"
+    exit 1
+endif
+
 set filename=$1
 
-chmod +x $filename
+if ( ! -e $filename ) then
+    echo "Must supply an existing path name"
+    exit 2
+endif
 
+chmod +x $filename
