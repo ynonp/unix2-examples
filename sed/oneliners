@@ -1,0 +1,1 @@
+cat todo | sed 's/^/<li>/' | sed 's/$/<\/li>/'
