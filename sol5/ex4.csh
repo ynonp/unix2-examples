@@ -19,3 +19,11 @@ endif
 if ( -x $1 ) then
     echo "$1 is executable"
 endif
+
+test -r "$1" && echo "$1 Is Readable"
+test -w "$1" && echo "$1 Is Writable"
+test -x "$1" && echo "$1 Is Executable"
+
+
+
+

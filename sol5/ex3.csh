@@ -10,10 +10,10 @@ if ( $# != 1 ) then
     exit 1
 endif
 
-set pathname=$1
+set pathname="$1"
 
-if ( -f $pathname ) then
-    cat $pathname
-else if (-d $pathname ) then
-    ls $pathname
+if ( -f "$pathname" ) then
+    cat "$pathname"
+else if (-d "$pathname" ) then
+    ls "$pathname"
 endif
