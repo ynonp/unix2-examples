@@ -8,10 +8,11 @@ if ( $# != 1 ) then
     exit 1
 endif
 
-set counter=0
-set filename=$1
+set counter  = 0
+set filename = $1
 
-while (-f "$filename$counter")
+while ( ( $counter <= 100 ) && (-f "$filename$counter") )
     @ counter += 2
 end
+
 cp "$filename" "$filename$counter"

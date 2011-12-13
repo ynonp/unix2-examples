@@ -1,0 +1,16 @@
+-rw-r--r--  1 ynonperek  staff    305 Oct  3 14:23 backup.csh
+-rw-r--r--  1 ynonperek  staff     58 Oct  3 15:44 data
+-rw-r--r--  1 ynonperek  staff  22108 Oct  3 15:22 file
+-rw-r--r--  1 ynonperek  staff      0 Oct  3 10:08 foo_bar
+-rw-r--r--  1 ynonperek  staff    184 Oct  3 14:15 mass_rename.csh
+-rw-r--r--  1 ynonperek  staff    259 Oct  3 10:08 mkdirp.csh
+-rw-r--r--  1 ynonperek  staff      0 Oct  3 10:08 name_with_spaces
+-rwxr-xr-x  1 ynonperek  staff    170 Oct  3 14:21 rev.csh
+-rw-r--r--  1 ynonperek  staff    296 Oct  3 14:11 wait_for_user.csh
+-rw-r--r--  1 ynonperek  staff      0 Oct  3 10:08 x
+-rw-r--r--  1 ynonperek  staff     22 Oct  3 10:08 x0
+-rw-r--r--  1 ynonperek  staff      0 Oct  3 10:08 x10
+-rw-r--r--  1 ynonperek  staff      0 Oct  3 10:08 x2
+-rw-r--r--  1 ynonperek  staff      0 Oct  3 10:08 x4
+-rw-r--r--  1 ynonperek  staff      0 Oct  3 10:08 x6
+-rw-r--r--  1 ynonperek  staff      0 Oct  3 10:08 x8
